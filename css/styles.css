@@ -131,7 +131,7 @@
       display: block;
       padding-top: 24px;
       padding-bottom: 24px;
-      transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .header-navigation-list {
@@ -236,7 +236,7 @@
       padding-bottom: 24px;
       padding-top: 24px;
       display: block;
-      transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .header-address-link:hover {
@@ -684,7 +684,7 @@
       height: 88px;
       border-radius: 4px;
       border: 1px solid #8E8F99;
-      transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      transition: border fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .customers-icon {
@@ -871,7 +871,7 @@
       border: 1px solid;
       border-radius: 4px;
       border-color: var(--border-button-color);
-      transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      transition: background-color color border-color box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
   }
